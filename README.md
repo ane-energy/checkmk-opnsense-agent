@@ -4,7 +4,7 @@
 
 SSH into your OPNsense:
 ```
-fetch -o /usr/local/etc/rc.syshook.d/start/99-checkmk_agent https://github.com/bashclub/check-opnsense/raw/main/opnsense_checkmk_agent.py
+fetch -o /usr/local/etc/rc.syshook.d/start/99-checkmk_agent https://github.com/ane-energy/checkmk-opnsense-agent/raw/main/opnsense_checkmk_agent.py
 chmod +x /usr/local/etc/rc.syshook.d/start/99-checkmk_agent
 /usr/local/etc/rc.syshook.d/start/99-checkmk_agent
 ```
