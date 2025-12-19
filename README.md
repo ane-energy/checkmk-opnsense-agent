@@ -62,3 +62,7 @@ The local check **Services** supports a service blacklist file at:
 `/usr/local/etc/checkmk_service_blacklist.conf`
 
 If present, each non-empty, non-comment line is treated as a blacklisted entry. A service is considered blacklisted if either its service **name** or **description** matches an entry in this file.
+
+## License
+
+BSD-2-Clause. See `LICENSE`.
